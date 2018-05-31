@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/bloodspasm/WTCache.git", :tag => "#{s.name}"+"-v"+"#{s.version}"}
-  s.source_files  = "WTCache/*"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+  s.source_files  = "WTCache/WTCache/*"    #OC可以使用类似这样"Classes/**/*.{h,m}"
   s.frameworks = 'Foundation','UIKit'
   s.dependency "Cache"
 
